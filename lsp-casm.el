@@ -22,6 +22,7 @@
 ;
 
 (require 'lsp-mode)
+(require 'casm-mode)
 
 (lsp-define-stdio-client lsp-casm
 			 "casm"
